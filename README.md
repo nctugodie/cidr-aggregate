@@ -1,1 +1,1 @@
-aggregate cidr list to ip list
+Aggregate cidr list to ip list
