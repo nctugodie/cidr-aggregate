@@ -1,7 +1,7 @@
 // ConsoleApplication1.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -59,7 +59,7 @@ void convert_ip(const char* cidr, unsigned int& ip_min, unsigned int& ip_max, bo
     }
 }
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, char* argv[])
 {
     char line [128] = {};
     unsigned int ip_min = 0;
@@ -133,6 +133,6 @@ int _tmain(int argc, _TCHAR* argv[])
         }
     }
 
-	return 0;
+    return 0;
 }
 
